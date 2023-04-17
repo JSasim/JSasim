@@ -11,7 +11,6 @@ public class AppFrame extends JFrame {
 		Toolkit tk = Toolkit.getDefaultToolkit();
 		Dimension screenSize = tk.getScreenSize();
 		setSize(screenSize.width,screenSize.height);
-		//setSize(1400,800);
 		setResizable(false);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
